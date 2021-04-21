@@ -1,5 +1,4 @@
-
-.main-container {
+.calc-container {
     display: grid;
     grid-template-rows: 1fr 4fr;
     border: none;
@@ -11,14 +10,16 @@
     box-shadow: 8px 8px 8px 1px #c2c2c2;
 };
 
-.result {
+.calc-result {
     margin: 18px;
     padding: 20px;
     height: 100px;
     width: 220px;
+    font-size: 50px;
     text-align: right;
     border-bottom: 2px solid #cac9c9af;
-}
+};
+
 
 
 

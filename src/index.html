@@ -8,29 +8,32 @@
     <title>Mini Calculator</title>
 </head>
 <body>
-    <div class="main-container">
-    <div class="result"></div>
-    <div class="keys">
-        <button class="num" value="1">1</button>
-        <button class="num" value="2">2</button>
-        <button class="num" value="3">3</button>
-        <button class="sign" value="plus">+</button>
+    <div class="calc-container">
+        <div class="calc-monitor">
+            <div class="calc-expression"></div>
+            <div class="calc-result">0</div>
+        </div>
 
-        <button class="num" value="4">4</button>
-        <button class="num" value="5">5</button>
-        <button class="num" value="6">6</button>
-        <button class="sign" value="minus">-</button>
-
-        <button class="num" value="7">7</button>
-        <button class="num" value="8">8</button>
-        <button class="num" value="8">9</button>
-        <button class="sign" value="multiply">x</button>
-
-        <button class="num" value=""></button>
-        <button class="num" value="2">0</button>
-        <button class="num" value=""></button>
-        <button class="sign" value="plus">&#247;</button>
+    <div class="calc-buttons">
+        <button class="calc-button">1</button>
+        <button class="calc-button">2</button>
+        <button class="calc-button">3</button>
+        <button class="calc-button arithmetic" id="operator">+</button>
+        <button class="calc-button">4</button>
+        <button class="calc-button">5</button>
+        <button class="calc-button">6</button>
+        <button class="calc-button arithmetic" id="operator">-</button>
+        <button class="calc-button">7</button>
+        <button class="calc-button">8</button>
+        <button class="calc-button">9</button>
+        <button class="calc-button arithmetic" id="operator">x</button>
+        <button class="calc-button">.</button>
+        <button class="calc-button">0</button>
+        <button class="calc-button calc-equal" id="operator">=</button>
+        <button class="calc-button arithmetic" id="operator">&#247;</button>
+        <button class="calc-reset option" id="clear">CLEAR</button>
     </div>
-    </div>    
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
