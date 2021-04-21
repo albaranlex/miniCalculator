@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
     margin-left: 12px;
 } 
 
@@ -19,8 +20,15 @@
 }
 
 #operator {
-    background-color: #000000;
+    background-color: #DB5461;
     color: white;
+}
+
+#clear {
+    grid-column: 1/4;
+    width: 120%;
+    background-color: #DB5461;
+    font-size: 15px;
 }
 
 

@@ -29,7 +29,7 @@ const calculate = () => {
 const resetExpression = () => {
   expressionArr.length = 0;
   result.textContent = '0';
-  expression.textContent = '';
+  expression.textContent = '-';
 };
 
 buttons.forEach(el => el.addEventListener('click', addExpression));
